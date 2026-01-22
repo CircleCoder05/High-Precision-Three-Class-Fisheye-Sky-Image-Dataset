@@ -1,34 +1,22 @@
 # High-Precision Three-Class Fisheye Sky Image Dataset
 
-This dataset provides **high-precision three-class fisheye sky images**, 
+This dataset provides **high-precision three-class fisheye sky images**,                                                                                                                                                            specifically designed for **sky segmentation** and **visual-assisted GNSS NLOS/LOS satellite identification** research                                                          in complex urban environments. 
 
-specifically designed for **sky segmentation** and **visual-assisted GNSS NLOS/LOS satellite identification** research
-
-in complex urban environments. 
-
-It introduces a more refined distinction of occlusions beyond traditional binary classification, 
-
-making it suitable for applications such as autonomous driving, UAV positioning, and augmented reality.
+It introduces a more refined distinction of occlusions beyond traditional binary classification,                                                                                             making it suitable for applications such as autonomous driving, UAV positioning, and augmented reality.
 
 ------
 
 ## 1. Dataset Overview
 
-In dense urban environments, obstacles such as buildings and trees can block satellite signals, 
+In dense urban environments, obstacles such as buildings and trees can block satellite signals,                                                                                       leading to **GNSS multipath effects and non-line-of-sight (NLOS) errors**.
 
-leading to **GNSS multipath effects and non-line-of-sight (NLOS) errors**.
-
-To support **fine-grained scene understanding research**, 
-
-we have constructed a **high-precision fisheye sky image dataset** with three semantic labels:
+To support **fine-grained scene understanding research**,                                                                                                                                                                                 we have constructed a **high-precision fisheye sky image dataset** with three semantic labels:
 
 - **Sky Region**: Visible sky areas
 - **Building Occlusion**: Rigid structures such as buildings and bridges
 - **Vegetation Occlusion**: Semi-transparent obstacles such as trees and shrubs
 
-This dataset is suitable for training and evaluating **deep learning-based multi-class semantic segmentation models**, 
-
-such as **DeepLab series, HRNet, SegFormer**, etc.
+This dataset is suitable for training and evaluating **deep learning-based multi-class semantic segmentation models**,                                                                                                           such as **DeepLab series, HRNet, SegFormer**, etc.
 
 ------
 
@@ -92,9 +80,7 @@ Annotation workflow:
 - Semi-automatic extraction of vegetation regions
 - Multiple rounds of quality inspection and correction
 
-Annotations ensure **high-precision boundary delineation**, 
-
-especially in challenging areas such as **building edges** and **vegetation gaps**.
+Annotations ensure **high-precision boundary delineation**,                                                                                                                                                                                   especially in challenging areas such as **building edges** and **vegetation gaps**.
 
 ------
 
@@ -137,6 +123,4 @@ For **commercial applications**, please contact the author for authorization.
 
 ## 9. Note on Current Release
 
-**Note:** The current version showcases 50 training samples and 10 validation samples. 
-
-The complete dataset will be released upon the formal publication of the associated paper.
+**Note:** The current version showcases 50 training samples and 10 validation samples.                                                                                                                                                        The complete dataset will be released upon the formal publication of the associated paper.
