@@ -103,17 +103,7 @@ This dataset is suitable for the following research directions:
 
 ------
 
-## 7. Related Literature
-
-If this dataset is used in your research, please cite:
-
-**"FINLOS-TriSeg: A Fisheye Semantic Segmentation Network for Accurate Identification of GNSS Non-Line-of-Sight (NLOS) Signals"**
-
-(Full citation information will be updated upon formal publication)
-
-------
-
-## 8. Usage License
+## 7. Usage License
 
 This dataset is for **academic research purposes only**.
 
@@ -121,6 +111,6 @@ For **commercial applications**, please contact the author for authorization.
 
 ------
 
-## 9. Note on Current Release
+## 8. Note on Current Release
 
 **Note:** The current version showcases 50 training samples and 10 validation samples.<br>The complete dataset will be released upon the formal publication of the associated paper.
